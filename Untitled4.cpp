@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	{
 		input[i] = 5;
 	}
-	strcpy(buffer,input);
+	strncpy(buffer,input,5);
 	system("pause");
 	return 0;
 }
